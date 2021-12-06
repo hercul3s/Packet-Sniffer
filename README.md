@@ -1,8 +1,9 @@
 # Packet Logger / Decryptor via Windivert
 
 ## Description
-It decompresses & decrypts the data received from the Network Layer 
-without any injection and optionally prints them to a .Txt file or console.
+It decompresses & decrypts the rijndael 128 bit encrypted data 
+received from the Network Layer without any injection and 
+optionally prints them to a .Txt file or console.
 
 ## How to use
 
