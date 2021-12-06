@@ -1,6 +1,6 @@
 # Packet Logger / Decryptor via Windivert
 
-##Description
+## Description
 It decompresses & decrypts the data received from the Network Layer 
 without any injection and optionally prints them to a .Txt file or console.
 
@@ -12,7 +12,7 @@ without any injection and optionally prints them to a .Txt file or console.
 
 ## How to build from source
 1. Clone or download the repository
-2. Download the latest version WinDivert[here](https://github.com/basil00/Divert/releases/tag/v2.2.0)
+2. Download the latest version WinDivert [here](https://github.com/basil00/Divert/releases/tag/v2.2.0)
 3. Open the solution with Visual Studio 2019 or above
 4. Switch the build configuration to Debug or Release
 5. Build the solution.
@@ -20,7 +20,7 @@ without any injection and optionally prints them to a .Txt file or console.
 ## Screenshot
 ![](screenshots/ss.gif)
 
-## Acknowledgements
+## ---------------
 - [WinDivert](https://reqrypt.org/windivert.html)
 - [Rijndael](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
 - [Layer-3](https://en.wikipedia.org/wiki/Network_layer)
