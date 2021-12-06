@@ -20,7 +20,7 @@ without any injection and optionally prints them to a .Txt file or console.
 ## Screenshot
 ![](screenshots/ss.gif)
 
-## ---------------
+## for educational purposes...
 - [WinDivert](https://reqrypt.org/windivert.html)
 - [Rijndael](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
 - [Layer-3](https://en.wikipedia.org/wiki/Network_layer)
