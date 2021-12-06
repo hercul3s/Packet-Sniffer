@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Cryption">
+      <UniqueIdentifier>{11dc9e5d-7726-4ef0-9e38-d84fd60a802b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Packet Opr">
+      <UniqueIdentifier>{333dcf3f-b6b4-4a7d-885c-a2da6ea2f481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Compression">
+      <UniqueIdentifier>{6f2a3a86-639a-4901-9c74-f436ed39bfd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Compression">
+      <UniqueIdentifier>{37aa0d0a-cae4-4c62-82f3-15e324937068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cryption">
+      <UniqueIdentifier>{cb21d746-d2d0-4d25-8038-19a7fa5fced0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Packet Opr">
+      <UniqueIdentifier>{d8df870f-c3c2-4d02-b5e7-d916030af6e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Compression\Crc32.cpp">
+      <Filter>Source Files\Compression</Filter>
+    </ClCompile>
+    <ClCompile Include="Compression\Lzf.cpp">
+      <Filter>Source Files\Compression</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryption\JvCryption.cpp">
+      <Filter>Source Files\Cryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Cryption\RijndaelCryption.cpp">
+      <Filter>Source Files\Cryption</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet Opr\Packets.cpp">
+      <Filter>Source Files\Packet Opr</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet Opr\PacketsOps.cpp">
+      <Filter>Source Files\Packet Opr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cryption\JvCryption.h">
+      <Filter>Header Files\Cryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Cryption\RijndaelCryption.h">
+      <Filter>Header Files\Cryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression\Crc32.h">
+      <Filter>Header Files\Compression</Filter>
+    </ClInclude>
+    <ClInclude Include="Compression\Lzf.h">
+      <Filter>Header Files\Compression</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet Opr\ByteBuffer.h">
+      <Filter>Header Files\Packet Opr</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet Opr\Packet.h">
+      <Filter>Header Files\Packet Opr</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet Opr\PacketsDefine.h">
+      <Filter>Header Files\Packet Opr</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet Opr\PacketsOps.h">
+      <Filter>Header Files\Packet Opr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
